@@ -1,0 +1,41 @@
+:root {
+  --coolor-primary: #feee09;
+  --coolor-light: #f6f4f4;
+  --coolor-grey: #525252;
+  --coolor-dark: #000;
+}
+
+$rwd-large: 95em; //1440px
+$rwd-xmedium: 80em; // 1280px
+$rwd-medium: 64em; //1024px
+$rwd-small: 48em; //768px
+$rwd-mobile: 30em; //480px
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px
+  scroll-behavior: smooth;
+  @media only screen and (min-width: $rwd-large) {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--coolor-light);
+  background-color: var(--coolor-dark);
+}

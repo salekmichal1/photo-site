@@ -1,0 +1,21 @@
+{
+  "name": "photo-site",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
+    "sass": "sass src/sass/main.scss src/style.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "macy": "^2.5.1",
+    "sass": "^1.69.5",
+    "swiper": "^11.0.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  }
+}

@@ -1,0 +1,87 @@
+.header {
+  background-image: url(./assets/lens.jpg);
+  height: 54rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 3rem;
+
+  &__title {
+    color: var(--coolor-light);
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 16rem;
+    margin-bottom: 3rem;
+
+    &--yellow {
+      color: var(--coolor-primary);
+    }
+  }
+
+  @media only screen and (min-width: $rwd-medium) {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  @media only screen and (min-width: $rwd-large) {
+    margin-left: 16rem;
+    margin-right: 16rem;
+  }
+}
+
+#section--1 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.section {
+  margin: 0 3rem 8rem 3rem;
+
+  &__heading {
+    color: var(--coolor-light);
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+
+    &.add-margin {
+      margin-left: 3rem;
+      @media only screen and (min-width: $rwd-medium) {
+        margin-left: 10rem;
+        margin-right: 10rem;
+      }
+
+      @media only screen and (min-width: $rwd-large) {
+        margin-left: 16rem;
+        margin-right: 16rem;
+      }
+    }
+  }
+
+  &__description {
+    color: var(--coolor-grey);
+
+    @media only screen and (min-width: $rwd-small) {
+      max-width: 80%;
+    }
+
+    @media only screen and (min-width: $rwd-medium) {
+      max-width: 60%;
+    }
+  }
+
+  &.no-margin {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  @media only screen and (min-width: $rwd-medium) {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  @media only screen and (min-width: $rwd-large) {
+    margin-left: 16rem;
+    margin-right: 16rem;
+  }
+}
