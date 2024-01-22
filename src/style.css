@@ -232,6 +232,11 @@ footer {
   margin-bottom: 3rem;
 }
 
+.wrapper {
+  max-width: 192rem;
+  margin: 0 auto;
+}
+
 .header {
   background-image: url(./assets/lens.jpg);
   height: 54rem;
